@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: #323846;
+    background-color: #012742;
     padding: 20px 10px;
     position: fixed;
     width: 100%;
@@ -83,7 +83,7 @@ header a:hover {
 .hero-section-text {
     width: 80%;
     margin: auto;
-    color: #323846;
+    color: #012742;
     opacity: 0; /* Initially set the opacity to 0 */
     animation: fadeIn 1.5s ease-in-out forwards; /* Apply the fade-in animation */
 }
@@ -373,7 +373,7 @@ img {
 .hero-section-text {
     width: 100%;
     margin: auto;
-    color: #323846;
+    color: #012742;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out forwards;
     margin-top: 40px;
@@ -420,7 +420,7 @@ img {
     .flex.active {
       display: flex; /* Show the regular navigation links when the menu is active */
       flex-direction: column;
-      background-color: #323846;
+      background-color: #012742;
       position: absolute;
       top: 60px;
       left: 0;
@@ -451,7 +451,7 @@ img {
     .mobile {
       display: flex;
       flex-direction: column;
-      background-color: #323846;
+      background-color: #012742;
       position: absolute;
       top: 60px;
       left: 0;
