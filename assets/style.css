@@ -19,6 +19,14 @@ header {
 .flex {
     display: flex;
     gap: 20px;
+    /* padding: 0 20px; */
+    align-items: center;
+}
+
+
+.flexs {
+    display: flex;
+    gap: 20px;
     padding: 0 20px;
     align-items: center;
 }
@@ -351,7 +359,7 @@ img {
 
 .hero-section {
     position: relative;
-    background: linear-gradient(to left, rgba(12, 12, 12, 0.7), rgba(255, 255, 255, 0.7)), url(../images/e-renter-tenant-screening.jpg);
+    background: linear-gradient(to left, rgba(96, 96, 96, 0.7), rgba(255, 255, 255, 0.7)), url(../images/e-renter-tenant-screening.jpg);
     background-size: cover;
     background-position: right;
     color: black;
@@ -377,6 +385,10 @@ img {
 .title {
     font-size: 20px;
     text-align: center;
+}
+
+.securty-img{
+    width: 150px;
 }
 
 }
@@ -413,6 +425,7 @@ img {
       top: 60px;
       left: 0;
       width: 100%;
+      padding-bottom: 20px;
     }
   
     .flex.active a {
