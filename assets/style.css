@@ -419,7 +419,7 @@ img {
   }
   
   /* Media query for screens with a width of 850 pixels or less */
-  @media (max-width: 850px) {
+  @media (max-width: 995px) {
     .hamburger-menu {
       display: block; /* Show the hamburger menu on smaller screens */
     }
@@ -445,6 +445,13 @@ img {
       text-align: center;
       color: white;
       text-decoration: none;
+    }
+
+    .flexes {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
   }
   
@@ -481,6 +488,7 @@ img {
         display: none;
     }
 
+    
    
   }
   
