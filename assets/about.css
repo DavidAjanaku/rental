@@ -70,4 +70,11 @@
         margin: auto;
         padding: 20px;
     }
+
+    .icon-flex{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
 }
