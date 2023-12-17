@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/section.css">
+    <link rel="stylesheet" href="../assets/contact.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+          <a id="logo" href="#">E-Renter</a>
+        </div>
+        <div class="nav-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="flex flexs desktop">
+          <nav>
+            <a href="../index.html">Home</a>
+            <a href="services.html">Services</a>
+            <!-- <a href="#">Resources</a> -->
+            <a href="about.html">About</a>
+            <a href="#">Contact</a>
+          </nav>
+          <button id="get-started-btn"><a href="">Rental Application</a></button>
+          <!-- <button id="login-btn"><a href="">Login</a></button> -->
+        </div>
+        <!-- Mobile Navigation -->
+        <div class="flex mobile">
+          <nav>
+            <a href="../index.html">Home</a>
+            <a href="services.html">Services</a>
+            <!-- <a href="#">Resources</a> -->
+            <a href="about.html">About</a>
+            <a href="#">Contact</a>
+          </nav>
+          <button id="get-started-btn-mobile" class="screen-tenant-btns"><a href="">Rental Application</a></button>
+          <!-- <button id="login-btn-mobile"  class="screen-tenant-btns"><a href="">Login</a></button> -->
+        </div>
+      </header>
+
+      <section class="hero-section">
+        <div class="hero-section-text">
+            <div class="hero-section-tex">
+                <h1>Welcome to Eminent Screening Services</h1>
+                <br />
+                <p>
+                    Providing fast, comprehensive tenant screening reports and
+                    friendly, intelligent customer support. Secure the right tenant with confidence.
+                </p>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="footer_get_touch_outer">
+        <div class="container">
+          <div class="footer_get_touch_inner grid-70-30">
+            <div class="colmun-70 get_form">
+              <div class="get_form_inner">
+                <div class="get_form_inner_text">
+                  <h3>Get In Touch</h3>
+                </div>
+                <form action="#">
+                  <div class="grid-50-50">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="email" placeholder="Email">
+                    <input type="tel" placeholder="Phone/Skype">
+                  </div>
+                  <div class="grid-full">
+                    <textarea placeholder="About Your Project" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+            </div>
+                  
+          </div>
+        </div>
+      </section>
+
+    <footer>
+        <!-- First Section -->
+        <div class="footer-section">
+            <ul>
+                <li><a href="#">Rent Prep Footer Logo</a></li>
+                <li><a href="#">Interested in our API?</a></li>
+                <li><a href="#">Knowledge Base</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Affiliate Agreement</a></li>
+            </ul>
+        </div>
+  
+        <!-- Second Section -->
+        <div class="footer-section">
+            <h3>Our Company</h3>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Security & Privacy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+  
+        <!-- Third Section -->
+        <div class="footer-section">
+            <h3>Our Company</h3>
+            <ul>
+                <li><a href="#">Landlords, Start Here</a></li>
+                <li><a href="#">20 Questions To Ask Potential Tenants</a></li>
+                <li><a href="#">Tenant Background Checks</a></li>
+                <li><a href="#">Tenant Credit Check</a></li>
+                <li><a href="#">Tenant Screening</a></li>
+            </ul>
+        </div>
+  
+        <!-- Fourth Section -->
+        <div class="footer-section">
+            <h3>Hours Of Operation</h3>
+            <p>Mon-Fri: 9 am – 5 pm EST</p>
+            <p>Sat: Closed</p>
+            <p>Sun: 10 am – 3 pm EST</p>
+        </div>
+  
+        <!-- Fifth Section -->
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>1821 Como Park Blvd</p>
+            <p>Lancaster, NY 14086</p>
+            <p>1 (888) 877-8501</p>
+            <p>1 (888) 887-1491</p>
+            <p><a href="mailto:screening@rentprep.com">screening@rentprep.com</a></p>
+            <p><a href="#">Send us a message</a></p>
+        </div>
+    </footer>
+  
+      <!-- Add this script to enable toggle functionality -->
+  <!-- Add this script to enable toggle functionality -->
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const navToggle = document.querySelector(".nav-toggle");
+        const flexContainer = document.querySelector(".flex");
+        const mobileNav = document.querySelector(".flex.mobile");
+    
+        navToggle.addEventListener("click", function () {
+          flexContainer.classList.toggle("active");
+          mobileNav.classList.toggle("active");
+    
+          // Change the content of the nav-toggle button
+          const navToggleBars = document.querySelectorAll(".nav-toggle .bar");
+          if (flexContainer.classList.contains("active")) {
+            // If the navigation is active, change to "X"
+            navToggleBars[0].style.transform = "rotate(-45deg) translate(-5px, 6px)";
+            navToggleBars[1].style.opacity = "0";
+            navToggleBars[2].style.transform = "rotate(45deg) translate(-5px, -6px)";
+          } else {
+            // If the navigation is not active, change back to bars
+            navToggleBars[0].style.transform = "rotate(0) translate(0, 0)";
+            navToggleBars[1].style.opacity = "1";
+            navToggleBars[2].style.transform = "rotate(0) translate(0, 0)";
+          }
+        });
+      });
+    </script>
+    
+</body>
+</html>

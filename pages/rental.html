@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multistep form</title>
+  <link rel="stylesheet" href="../assets/rental.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <body>
+        <div class="container">
+            <header>Tenant Application Form</header>
+            <div class="progress-bar">
+              <div class="step">
+                <p>Rental Property Address</p>
+                <div class="bullet">
+                  <span>1</span>
+                </div>
+                <div class="check fas fa-check"></div>
+              </div>
+              <div class="step">
+                <p>Full Name</p>
+                <div class="bullet">
+                  <span>2</span>
+                </div>
+                <div class="check fas fa-check"></div>
+              </div>
+              <div class="step">
+                <p>Email Address</p>
+                <div class="bullet">
+                  <span>3</span>
+                </div>
+                <div class="check fas fa-check"></div>
+              </div>
+              <div class="step">
+                <p>Mobile Number</p>
+                <div class="bullet">
+                  <span>4</span>
+                </div>
+                <div class="check fas fa-check"></div>
+              </div>
+              <div class="step">
+                <p>Current Home Address</p>
+                <div class="bullet">
+                  <span>5</span>
+                </div>
+                <div class="check fas fa-check"></div>
+              </div>
+              <div class="step">
+                <p>Additional Details</p>
+                <div class="bullet">
+                  <span>6</span>
+                </div>
+                <div class="check fas fa-check"></div>
+              </div>
+              <div class="step">
+                <p>Submit</p>
+                <div class="bullet">
+                  <span>7</span>
+                </div>
+                <div class="check fas fa-check"></div>
+              </div>
+            </div>
+            <div class="form-outer">
+              <form action="#">
+                <div class="page slide-page">
+                  <div class="title">Rental Property Address:</div>
+                  <div class="field">
+                    <div class="label">Rental Property Address *</div>
+                    <input type="text" required />
+                  </div>
+                  <div class="field">
+                    <button class="firstNext next">Next</button>
+                  </div>
+                </div>
+        
+                <div class="page">
+                  <div class="title">Full Name:</div>
+                  <div class="field">
+                    <div class="label">Full Name *</div>
+                    <input type="text" required />
+                  </div>
+                  <div class="field btns">
+                    <button class="prev-1 prev">Previous</button>
+                    <button class="next-1 next">Next</button>
+                  </div>
+                </div>
+        
+                <div class="page">
+                  <div class="title">Contact Information:</div>
+                  <div class="field">
+                    <div class="label">Email Address *</div>
+                    <input type="text" required />
+                  </div>
+                  <div class="field">
+                    <div class="label">Mobile Number *</div>
+                    <input type="number" required />
+                  </div>
+                  <div class="field btns">
+                    <button class="prev-2 prev">Previous</button>
+                    <button class="next-2 next">Next</button>
+                  </div>
+                </div>
+        
+                <div class="page">
+                  <div class="title">Current Home Address:</div>
+                  <div class="field">
+                    <div class="label">Current Home Address *</div>
+                    <input type="text" required />
+                  </div>
+                  <div class="field btns">
+                    <button class="prev-3 prev">Previous</button>
+                    <button class="next-3 next">Next</button>
+                  </div>
+                </div>
+        
+                <div class="page">
+                  <div class="title">Additional Details:</div>
+                  <div class="field">
+                    <div class="label">Driver's License Number *</div>
+                    <input type="text" required />
+                  </div>
+                  <div class="field">
+                    <div class="label">Job Position</div>
+                    <input type="text" />
+                  </div>
+                  <div class="field">
+                    <div class="label">Monthly Income</div>
+                    <input type="number" />
+                  </div>
+                  <div class="field">
+                    <div class="label">Employer</div>
+                    <input type="text" />
+                  </div>
+                  <div class="field">
+                    <div class="label">Employer Phone No.</div>
+                    <input type="number" />
+                  </div>
+                  <div class="field">
+                    <div class="label">Current Landlord Name</div>
+                    <input type="text" />
+                  </div>
+                  <div class="field">
+                    <div class="label">Current Landlord Phone No.</div>
+                    <input type="number" />
+                  </div>
+                  <div class="field">
+                    <div class="label">Pet</div>
+                    <label>
+                      <input type="radio" name="pet" value="yes"> Yes
+                    </label>
+                    <label>
+                      <input type="radio" name="pet" value="no"> No
+                    </label>
+                  </div>
+                  <div class="field">
+                    <div class="label">Car</div>
+                    <label>
+                      <input type="radio" name="car" value="yes"> Yes
+                    </label>
+                    <label>
+                      <input type="radio" name="car" value="no"> No
+                    </label>
+                  </div>
+                  <div class="field">
+                    <div class="label">Smoker</div>
+                    <label>
+                      <input type="radio" name="smoker" value="yes"> Yes
+                    </label>
+                    <label>
+                      <input type="radio" name="smoker" value="no"> No
+                    </label>
+                  </div>
+                  <div class="field">
+                    <div class="label">Other Adult Applicant?</div>
+                    <label>
+                      <input type="radio" name="otherApplicant" value="yes"> Yes
+                    </label>
+                    <label>
+                      <input type="radio" name="otherApplicant" value="no"> No
+                    </label>
+                  </div>
+                  <div class="field">
+                    <div class="label">Co-Signer</div>
+                    <label>
+                      <input type="radio" name="coSigner" value="yes"> Yes
+                    </label>
+                    <label>
+                      <input type="radio" name="coSigner" value="no"> No
+                    </label>
+                  </div>
+                  <div class="field">
+                    <div class="label">Desired Move-In Date</div>
+                    <input type="text" />
+                  </div>
+                  <div class="field">
+                    <div class="label">Comments</div>
+                    <textarea rows="4"></textarea>
+                  </div>
+                  <div class="field">
+                    <div class="label">Upload file proof of income *</div>
+                    <input type="file" />
+                  </div>
+                  <div class="field">
+                    <div class="label">Payment Option</div>
+                    <select>
+                      <option>CashApp</option>
+                      <option>Zelle</option>
+                      <option>PayPal</option>
+                      <option>BTC (10% Discount)</option>
+                      <option>Venmo</option>
+                      <option>Apple Pay</option>
+                    </select>
+                  </div>
+                  <div class="field btns">
+                    <button class="prev-4 prev">Previous</button>
+                    <button class="submit">Submit</button>
+                  </div>
+                </div>
+        
+              </form>
+            </div>
+          </div>
+       <script>
+        initMultiStepForm();
+
+function initMultiStepForm() {
+    const progressNumber = document.querySelectorAll(".step").length;
+    const slidePage = document.querySelector(".slide-page");
+    const submitBtn = document.querySelector(".submit");
+    const progressText = document.querySelectorAll(".step p");
+    const progressCheck = document.querySelectorAll(".step .check");
+    const bullet = document.querySelectorAll(".step .bullet");
+    const pages = document.querySelectorAll(".page");
+    const nextButtons = document.querySelectorAll(".next");
+    const prevButtons = document.querySelectorAll(".prev");
+    const stepsNumber = pages.length;
+
+    if (progressNumber !== stepsNumber) {
+        console.warn(
+            "Error, number of steps in progress bar do not match number of pages"
+        );
+    }
+
+    document.documentElement.style.setProperty("--stepNumber", stepsNumber);
+
+    let current = 1;
+
+    for (let i = 0; i < nextButtons.length; i++) {
+        nextButtons[i].addEventListener("click", function (event) {
+            event.preventDefault();
+
+            inputsValid = validateInputs(this);
+            // inputsValid = true;
+
+            if (inputsValid) {
+                slidePage.style.marginLeft = `-${
+                    (100 / stepsNumber) * current
+                }%`;
+                bullet[current - 1].classList.add("active");
+                progressCheck[current - 1].classList.add("active");
+                progressText[current - 1].classList.add("active");
+                current += 1;
+            }
+        });
+    }
+
+    for (let i = 0; i < prevButtons.length; i++) {
+        prevButtons[i].addEventListener("click", function (event) {
+            event.preventDefault();
+            slidePage.style.marginLeft = `-${
+                (100 / stepsNumber) * (current - 2)
+            }%`;
+            bullet[current - 2].classList.remove("active");
+            progressCheck[current - 2].classList.remove("active");
+            progressText[current - 2].classList.remove("active");
+            current -= 1;
+        });
+    }
+    submitBtn.addEventListener("click", function () {
+        bullet[current - 1].classList.add("active");
+        progressCheck[current - 1].classList.add("active");
+        progressText[current - 1].classList.add("active");
+        current += 1;
+        setTimeout(function () {
+            alert("Your Form Successfully Signed up");
+            location.reload();
+        }, 800);
+    });
+
+    function validateInputs(ths) {
+        let inputsValid = true;
+
+        const inputs =
+            ths.parentElement.parentElement.querySelectorAll("input");
+        for (let i = 0; i < inputs.length; i++) {
+            const valid = inputs[i].checkValidity();
+            if (!valid) {
+                inputsValid = false;
+                inputs[i].classList.add("invalid-input");
+            } else {
+                inputs[i].classList.remove("invalid-input");
+            }
+        }
+        return inputsValid;
+    }
+}
+
+       </script>
+    </body>
+</html>

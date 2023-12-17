@@ -1,69 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags and links to external stylesheets and fonts -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Website</title>
+    <title>Eminent Screening - Your Trusted Tenant Screening Partner</title>
+    <!-- Link to your custom stylesheet -->
     <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ezZcEyoR8L3IUCeaDY9F1Y9v7gZWQgah7NcEGT2BytAkh6tT8vxNjQ9DJ9xKtgW2" crossorigin="anonymous">
+    <!-- Link to Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-ybNx8z+ZCWq48bu2wJueb0qIx0Fu+qKEzeFkLr73NRpX5Kf6tnKOY1R7PwA1jdz2" crossorigin="anonymous">
-
   </head>
   <body>
+    <!-- Header Section -->
     <header>
+        <!-- Logo and navigation toggle for desktop -->
         <div class="logo-container">
-          <a id="logo" href="#">E-Renter</a>
+          <a id="logo" href="#">Eminent Screening</a>
         </div>
         <div class="nav-toggle">
           <div class="bar"></div>
           <div class="bar"></div>
           <div class="bar"></div>
         </div>
+        <!-- Navigation for desktop -->
         <div class="flex flexs desktop">
           <nav>
-            <a href="#">Tenant Screening</a>
-            <a href="#">Services</a>
-            <a href="#">Resources</a>
+            <a href="index.html">Home</a>
+            <a href="pages/services.html">Services</a>
+            <!-- <a href="pages/">Resources</a> -->
             <a href="pages/about.html">About</a>
             <a href="#">Contact</a>
           </nav>
-          <button id="get-started-btn"><a href="">GET STARTED</a></button>
-          <button id="login-btn"><a href="">Login</a></button>
+          <!-- Call to action buttons -->
+          <button id="get-started-btn"><a href="pages/rental.html">Rental Application</a></button>
+          <!-- <button id="login-btn"><a href="#">Login</a></button> -->
         </div>
         <!-- Mobile Navigation -->
         <div class="flex mobile">
           <nav>
-            <a href="#">Tenant Screening</a>
-            <a href="#">Services</a>
-            <a href="#">Resources</a>
+            <a href="index.html">Home</a>
+            <a href="pages/services.html">Services</a>
+            <!-- <a href="#">Resources</a> -->
             <a href="pages/about.html">About</a>
             <a href="#">Contact</a>
           </nav>
-          <button id="get-started-btn-mobile" class="screen-tenant-btns"><a href="">GET STARTED</a></button>
-          <button id="login-btn-mobile"  class="screen-tenant-btns"><a href="">Login</a></button>
+          <!-- Call to action buttons for mobile -->
+          <button id="get-started-btn-mobile" class="screen-tenant-btns"><a href="./pages/rental.html">Rental Application</a></button>
+          <!-- <button id="login-btn-mobile"  class="screen-tenant-btns"><a href="#">Login</a></button> -->
         </div>
-      </header>
-      
+    </header>
 
+    <!-- Hero Section -->
     <section class="hero-section">
       <div class="hero-section-text">
         <div class="hero-section-tex">
-          <h1>The key to easy tenant background checks</h1>
+          <h1>Empowering Your Rental Decisions with Eminent Screening</h1>
           <br />
           <p>
-            We give you fast, comprehensive tenant screening reports and
-            friendly, intelligent customer support. You get a great tenant.
+            Eminent Screening provides fast, comprehensive tenant screening reports and
+            friendly, intelligent customer support. Secure the perfect tenant effortlessly.
           </p>
-
-          <a href="#" class="screen-tenant-btn">Screen a tenant</a>
+          <a href="pages/rental.html" class="screen-tenant-btn">Screen a Tenant</a>
         </div>
       </div>
     </section>
+
+    <!-- How Eminent Screening Works Section -->
     <section class="background">
         <div class="container">
-            <h1 class="text-center text-lg orange">How RentPrep Works</h1>
+            <h1 class="text-center text-lg orange">How Eminent Screening Works</h1>
+          <!-- Cards explaining the tenant screening process -->
           <div class="flexes">
             <div class="card">
+              <!-- Icon for Tenant Screening -->
               <div class="card-header">
                 <img
                   src="images/RP22-TenantScreen-Icon.svg"
@@ -76,18 +85,20 @@
               </div>
   
               <div class="card-body">
+                <!-- Description of Tenant Screening -->
                 <p>
-                  We believe in helping you before, during and after the tenant
+                  We believe in helping you before, during, and after the tenant
                   screening process. Running a tenant background check is only one
-                  piece of the puzzle. That’s why we’ve created this tutorial to
-                  walk you through the entire tenant screening process.
+                  piece of the puzzle. Our tutorial guides you through the entire tenant screening process.
                 </p>
               </div>
+              <!-- Button to learn more -->
               <div class="card-footer">
                 <button class="card-button">Learn More</button>
               </div>
             </div>
   
+            <!-- Card for Rental Background Check -->
             <div class="card">
               <div class="card-header">
                 <img src="images/rental.svg" width="80" class="card-img" alt="" />
@@ -95,13 +106,14 @@
                 <h4 class="subtitle">Rental Background Check</h4>
               </div>
               <div class="card-body">
-                <p>If you’ve never run a rental background check before it can seem like a different language looking at a report. This helpful guide will show you what to look for. Learn why eviction data is so important and how to determine what data matters to you..</p>
+                <p>If you’ve never run a rental background check before, our guide will help you decipher the report. Learn why eviction data is crucial and how to interpret relevant information.</p>
               </div>
               <div class="card-footer">
                 <button class="card-button">Learn More</button>
               </div>
             </div>
   
+            <!-- Card for Tenant Credit Check -->
             <div class="card">
                 <div class="card-header">
                   <img src="images/credit.svg" width="80" class="card-img" alt="" />
@@ -109,7 +121,7 @@
                 <h4 class="subtitle">Tenant Credit Check</h4>
               </div>
               <div class="card-body">
-                <p>This valuable add-on to your tenant background check will give you additional insights. This is the same resource Heather & Brandon Turner (see book below) add to their RentPrep reports. Understand your tenant’s credit and if they would pass your criteria.</p>
+                <p>Enhance your tenant background check with valuable insights from a credit check. Understand your tenant’s credit history and determine if they meet your criteria.</p>
               </div>
               <div class="card-footer">
                 <button class="card-button">Learn More</button>
@@ -118,11 +130,13 @@
           </div>
         </div>
       </section>
+
+    <!-- Why Invest in Tenant Screening Section -->
     <section class="background">
       <div class="container">
         <div>
           <h2 class="title title-min">
-            Tenant Screening, Tenant Credit Checks and Background Check Services
+            Eminent Screening - Your Partner in Tenant Screening
           </h2>
         </div>
         <div class="image-text-section">
@@ -131,50 +145,77 @@
           </div>
           <div class="text-container">
             <h2 style="color: #c66510; font-size: 30px;">Why Invest in Tenant Screening?</h2>
+            <!-- Description of the importance of tenant screening -->
             <p>
-              Having tenants screened by a professional company is essential for
-              your rental property. You want to ensure you’re getting a
-              reliable, trustworthy tenant so that you are less likely to
-              encounter problems down the road. Moreover, getting criminal
-              background checks on tenants is also crucial, as it can help keep
-              the neighborhood and your investment safe. After all, you wouldn’t
-              want an ex-con or sex offender renting your property.
-              Additionally, you should be informed of a prospective tenant’s
-              eviction history. This is one of the most important pieces of
-              information you can receive from a professional screening company.
-              This is because it lets you know if a tenant violated lease
-              agreements and/or was evicted in the past. Having tenants with
-              clean rental histories is key.
+              Having tenants screened by Eminent Screening is essential for
+              your rental property. Ensure you get a reliable, trustworthy tenant to minimize potential issues. Learn about your prospective tenant’s eviction history to make informed decisions.
             </p>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Credit Screening and Background Checks Section -->
     <section class="background">
       <div class="container">
-      
         <div class="image-text-section">
           <div class="text-container">
             <h2 style="color: #c66510; font-size: 30px;">Credit Screening and Background Checks</h2>
+            <!-- List of benefits of Eminent Screening's services -->
             <ul>
               <li><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg> Convenient & Easy to Use</li>
-              <li><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg> 100% Online. No special software needed.</li>
-              <li><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg> Nationwide Service - Tenant screening and credit check reports available in all 50 states</li>
-              <li><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg> No On-Site Inspection - No on-site inspections for individual landlords with our industry-leading process.</li>
-              <li><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg> No Hidden Fees - Only pay for what you order – no membership fees or hidden charges</li>
-              <li><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg> Fast & Secure - Get background and credit check reports within one hour during office hours. Same day service after hours and on weekends.</li>
-              <li><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg> Friendly Service - Outstanding live phone and e-mail support makes E-Renter® your trusted partner for landlord credit checks and tenant screening services.</li>
-          </ul>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                  <!-- Font Awesome Icon -->
+                  <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                </svg>
+                100% Online. No special software needed.
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                  <!-- Font Awesome Icon -->
+                  <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                </svg>
+                Nationwide Service - Tenant screening and credit check reports available in all 50 states
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                  <!-- Font Awesome Icon -->
+                  <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                </svg>
+                No On-Site Inspection - No on-site inspections for individual landlords with our industry-leading process.
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                  <!-- Font Awesome Icon -->
+                  <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                </svg>
+                No Hidden Fees - Only pay for what you order – no membership fees or hidden charges
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                  <!-- Font Awesome Icon -->
+                  <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                </svg>
+                Fast & Secure - Get background and credit check reports within one hour during office hours. Same day service after hours and on weekends.
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                  <!-- Font Awesome Icon -->
+                  <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                </svg>
+                Friendly Service - Outstanding live phone and e-mail support makes E-Renter® your trusted partner for landlord credit checks and tenant screening services.
+              </li>
+            </ul>
           </div>
           <div class="image-container">
-            <img src="./images/Verifirst-Double-Check_Icon.webp"class="securty-img" Image Description" />
+            <img src="./images/Verifirst-Double-Check_Icon.webp" class="securty-img" alt="Security Image Description" />
           </div>
-        
         </div>
       </div>
     </section>
 
+    <!-- Footer Section -->
     <footer>
       <!-- First Section -->
       <div class="footer-section">
@@ -186,7 +227,7 @@
               <li><a href="#">Affiliate Agreement</a></li>
           </ul>
       </div>
-
+  
       <!-- Second Section -->
       <div class="footer-section">
           <h3>Our Company</h3>
@@ -198,10 +239,10 @@
               <li><a href="#">Terms & Conditions</a></li>
           </ul>
       </div>
-
+  
       <!-- Third Section -->
       <div class="footer-section">
-          <h3>Our Company</h3>
+          <h3>For Landlords</h3>
           <ul>
               <li><a href="#">Landlords, Start Here</a></li>
               <li><a href="#">20 Questions To Ask Potential Tenants</a></li>
@@ -210,7 +251,7 @@
               <li><a href="#">Tenant Screening</a></li>
           </ul>
       </div>
-
+  
       <!-- Fourth Section -->
       <div class="footer-section">
           <h3>Hours Of Operation</h3>
@@ -218,7 +259,7 @@
           <p>Sat: Closed</p>
           <p>Sun: 10 am – 3 pm EST</p>
       </div>
-
+  
       <!-- Fifth Section -->
       <div class="footer-section">
           <h3>Contact</h3>
@@ -230,36 +271,34 @@
           <p><a href="#">Send us a message</a></p>
       </div>
   </footer>
+  
 
-    <!-- Add this script to enable toggle functionality -->
-<!-- Add this script to enable toggle functionality -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const navToggle = document.querySelector(".nav-toggle");
-      const flexContainer = document.querySelector(".flex");
-      const mobileNav = document.querySelector(".flex.mobile");
-  
-      navToggle.addEventListener("click", function () {
-        flexContainer.classList.toggle("active");
-        mobileNav.classList.toggle("active");
-  
-        // Change the content of the nav-toggle button
-        const navToggleBars = document.querySelectorAll(".nav-toggle .bar");
-        if (flexContainer.classList.contains("active")) {
-          // If the navigation is active, change to "X"
-          navToggleBars[0].style.transform = "rotate(-45deg) translate(-5px, 6px)";
-          navToggleBars[1].style.opacity = "0";
-          navToggleBars[2].style.transform = "rotate(45deg) translate(-5px, -6px)";
-        } else {
-          // If the navigation is not active, change back to bars
-          navToggleBars[0].style.transform = "rotate(0) translate(0, 0)";
-          navToggleBars[1].style.opacity = "1";
-          navToggleBars[2].style.transform = "rotate(0) translate(0, 0)";
-        }
-      });
-    });
-  </script>
-  
-  
+    <!-- JavaScript for navigation toggle -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const navToggle = document.querySelector(".nav-toggle");
+          const flexContainer = document.querySelector(".flex");
+          const mobileNav = document.querySelector(".flex.mobile");
+      
+          navToggle.addEventListener("click", function () {
+            flexContainer.classList.toggle("active");
+            mobileNav.classList.toggle("active");
+      
+            // Change the content of the nav-toggle button
+            const navToggleBars = document.querySelectorAll(".nav-toggle .bar");
+            if (flexContainer.classList.contains("active")) {
+              // If the navigation is active, change to "X"
+              navToggleBars[0].style.transform = "rotate(-45deg) translate(-5px, 6px)";
+              navToggleBars[1].style.opacity = "0";
+              navToggleBars[2].style.transform = "rotate(45deg) translate(-5px, -6px)";
+            } else {
+              // If the navigation is not active, change back to bars
+              navToggleBars[0].style.transform = "rotate(0) translate(0, 0)";
+              navToggleBars[1].style.opacity = "1";
+              navToggleBars[2].style.transform = "rotate(0) translate(0, 0)";
+            }
+          });
+        });
+    </script>
   </body>
 </html>
