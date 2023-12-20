@@ -166,7 +166,7 @@ form .page .btns button.next {
     right: -51px;
     height: 3px;
     width: 44px;
-    background: #262626;
+    /* background: #262626; */
 }
 .progress-bar .step .bullet.active:after {
     background: var(--primary);
